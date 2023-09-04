@@ -4,4 +4,4 @@
 
 ---
 
-### [004-core-html](./004-core-html)
+### [004-core-html](./004-core-html/readme.md)
