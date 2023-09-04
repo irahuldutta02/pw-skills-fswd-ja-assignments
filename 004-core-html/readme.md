@@ -7,3 +7,15 @@
 ### 01.
 - [View Live](https://irahuldutta02.github.io/pw-skills-fswd-ja-assignments/004-core-html/01/)
 - [Source Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/004-core-html/01/)
+
+### 02.
+- [View Live](https://irahuldutta02.github.io/pw-skills-fswd-ja-assignments/004-core-html/02/)
+- [Source Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/004-core-html/02/)
+
+### 03.
+- [View Live](https://irahuldutta02.github.io/pw-skills-fswd-ja-assignments/004-core-html/03/)
+- [Source Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/004-core-html/03/)
+
+### 04.
+- [View Live](https://irahuldutta02.github.io/pw-skills-fswd-ja-assignments/004-core-html/04/)
+- [Source Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/004-core-html/04/)
