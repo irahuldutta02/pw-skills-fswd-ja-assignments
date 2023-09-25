@@ -1,0 +1,62 @@
+/* Global styles for the form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+/* Styles for form headings */
+.form-container h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Styles for form sections */
+.form-section {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 0.5rem;
+}
+
+/* Styles for labels */
+.form-section label {
+  display: block;
+  font-weight: bold;
+}
+
+/* Styles for input elements */
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="tel"],
+.form-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #daffb1;
+}
+
+/* Styles for the opacity section */
+.opacity-section {
+  opacity: 0.7;
+}
+
+/* Styles for the submit button */
+.form-container button {
+  display: block;
+  width: 10rem;
+  margin: auto;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.form-container button:hover {
+  background-color: #0056b3;
+}

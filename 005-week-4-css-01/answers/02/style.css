@@ -1,0 +1,20 @@
+/* Base styling for paragraphs */
+.paragraph-block {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Modifier for a special paragraph */
+.paragraph-special {
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+/* Modifier for a highlighted paragraph */
+.paragraph-highlight {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
