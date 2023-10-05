@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task - 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+        }
+
+        .box {
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+            border: 0.5px solid gold;
+            font-size: 1rem;
+            position: absolute;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #a {
+            
+            left: 200px;
+            top: 200px;
+        }
+
+        #b {
+            left: -30px;
+            top: -30px
+        }
+
+        #c {
+            right: -30px;
+            top: -30px;
+        }
+
+        #d {
+            left: -30px;
+            bottom: -30px;
+        }
+
+        #e {
+            right: -30px;
+            bottom: -30px;
+        }
+    </style>
+</head>
+
+<body class="flex-center">
+
+    <div class="box flex-center" id="a">
+        A
+
+        <div class="box flex-center" id="b">
+            B
+        </div>
+        <div class="box flex-center" id="c">
+            C
+        </div>
+        <div class="box flex-center" id="d">
+            D
+        </div>
+        <div class="box flex-center" id="e">
+            E
+        </div>
+    </div>
+
+</body>
+
+</html>
