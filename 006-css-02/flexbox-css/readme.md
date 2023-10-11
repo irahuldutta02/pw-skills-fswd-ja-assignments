@@ -118,3 +118,7 @@ Output:
 ### 05.
 - [View Live](https://irahuldutta02.github.io/pw-skills-fswd-ja-assignments/006-css-02/flexbox-css/05)
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/006-css-02/flexbox-css/05/)
+
+Output: 
+
+![output](./05/output.png)
