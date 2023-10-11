@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  max-width: 1280px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main > .left {
+  width: 50%;
+  padding: 1rem;
+  flex-direction: column;
+  gap: 5rem;
+}
+.main > .right {
+  width: 50%;
+}
+
+.nav .navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav .navLeft img {
+  min-width: 9rem;
+  width: 60%;
+}
+
+.nav .navRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav .navRight .navRightUp ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav .navRight .navRightUp ul li {
+  list-style: none;
+  padding-left: 0;
+  color: var(--333333, #333);
+  text-align: center;
+  font-family: Inter;
+  font-size: 15.208px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav .navRight .navRightDown ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav .navRight .navRightDown ul li {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 1.5px solid rgba(51, 51, 51, 0.2);
+  background: #fff;
+  color: #333;
+  font-family: Inter;
+  font-size: 15.208px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav .navRight .navRightDown ul li.hlt {
+  border-radius: 5.069px;
+  background: #fb792b;
+  color: #fff;
+}
+
+.pageHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pageHeading .pageHeadingUp {
+  color: #333;
+  font-family: Inter;
+  font-size: 1.5rem;
+}
+
+.pageHeading .pageHeadingDown {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#phd1 {
+  color: #01bb0a;
+}
+
+#phd2 {
+  color: #fb792b;
+}
+
+#phd3 {
+  color: #213d77;
+}
+
+.btns ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns ul li {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  background: #fff;
+}
+
+.btns ul li.active {
+  background: #213d77;
+  color: #fff;
+}
+
+.selectBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.selectBox .selectBoxUp {
+  border: 1.5px solid rgba(51, 51, 51, 0.1);
+  border-radius: 0.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.selectBox .selectBoxUp > .left {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.selectBox .selectBoxUp > .left > .right > .up {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.selectBox .selectBoxUp > .left > .right > .middle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.selectBox .selectBoxUp > .middle {
+  display: flex;
+}
+
+.selectBox .selectBoxUp > .right {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.selectBox .selectBoxUp > .right > .right > .up {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.selectBox .selectBoxUp > .right > .right > .middle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.selectBox .selectBoxDown {
+  border: 1.5px solid rgba(51, 51, 51, 0.1);
+  border-radius: 0.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.selectBox .selectBoxDown > .left {
+  display: flex;
+}
+
+.selectBox .selectBoxDown > .left > .right > .up {
+  display: flex;
+}
+
+.selectBox .selectBoxDown > .left > .right > .middle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.selectBox .selectBoxDown > .middle > .right > .up {
+  display: flex;
+}
+
+.selectBox .selectBoxDown > .middle > .right > .middle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.selectBox .selectBoxDown > .right > .right > .up {
+  display: flex;
+}
+
+.selectBox .selectBoxDown > .right > .right > .middle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.selectBox .selectBoxDown > .middle {
+  display: flex;
+}
+
+.selectBox .selectBoxDown > .right {
+  display: flex;
+}
+
+.btn {
+  padding: 1rem;
+  flex-shrink: 0;
+  border-radius: 10.139px;
+  background: #01bb0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main>.right img{
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 1000px) {
+  .main > .left {
+    width: 100vw;
+  }
+  .main > .right {
+    display: none;
+  }
+}
