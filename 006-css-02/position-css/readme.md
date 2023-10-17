@@ -1,6 +1,6 @@
 # Answers - [position-css]
 ### Profile Links : [rahuldutta.bio.link](https://rahuldutta.bio.link)
-
+---
 ### 01.
 - [View Live](https://irahuldutta02.github.io/pw-skills-fswd-ja-assignments/006-css-02/position-css/01)
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/006-css-02/position-css/01/)
@@ -8,7 +8,7 @@
 Output:
 
 ![output](./01/output.png)
-
+---
 ### 02. Explain the difference between Absolute and Relative positioning.
 1. Absolute Positioning:
    - Absolute positioning is a CSS property that allows you to position an element relative to its nearest positioned ancestor, which means an ancestor element that has a CSS position property set to "relative," "absolute," "fixed," or "sticky."
@@ -36,7 +36,7 @@ Output:
         left: -5px;
         }
         ```
-
+---
 ### 03.
 - [View Live](https://irahuldutta02.github.io/pw-skills-fswd-ja-assignments/006-css-02/position-css/03)
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/006-css-02/position-css/03/)
@@ -44,13 +44,17 @@ Output:
 Output:
 
 ![output](./03/output.png)
-
+---
 ### 04.
 - [View Live](https://irahuldutta02.github.io/pw-skills-fswd-ja-assignments/006-css-02/position-css/04)
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/006-css-02/position-css/04/)
 
+Output:
+![output](./04/output.png)
 
+---
 ### 05. Explain the z-index, with a code example.
+---
 
 `z-index` is a CSS property that controls the stacking order of elements on a web page along the z-axis, which is perpendicular to both the x-axis (horizontal) and y-axis (vertical). It determines which elements appear on top of others when they overlap in the layout. Elements with a higher `z-index` value will be displayed in front of elements with a lower or no `z-index` value.
 
@@ -105,7 +109,4 @@ In this example:
 3. The `z-index` property is used to control the stacking order. The `.red-box` has a `z-index` of 1, and the `.blue-box` has a `z-index` of 2.
 
 4. As a result, the blue box will appear on top of the red box because it has a higher `z-index` value. The red box will be obscured by the blue box.
-
-
-
-
+---
