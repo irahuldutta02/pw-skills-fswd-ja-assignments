@@ -6,6 +6,7 @@
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/007-css-grid/01/)
 
 Output:
+
 ![Output](./01/output.png)
 
 ### 02.
@@ -13,6 +14,7 @@ Output:
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/007-css-grid/02/)
 
 Output:
+
 ![Output](./02/output.png)
 
 ### 03.
@@ -20,6 +22,7 @@ Output:
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/007-css-grid/03/)
 
 Output:
+
 ![Output](./03/output.png)
 
 ### 04.
@@ -27,6 +30,7 @@ Output:
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/007-css-grid/04/)
 
 Output:
+
 ![Output](./04/output.png)
 
 ### 05.
@@ -34,4 +38,5 @@ Output:
 - [Code](https://github.com/irahuldutta02/pw-skills-fswd-ja-assignments/tree/main/007-css-grid/05/)
 
 Output:
+
 ![Output](./05/output.png)
