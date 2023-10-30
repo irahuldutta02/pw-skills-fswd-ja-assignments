@@ -5,4 +5,3 @@
 Output:
 
 ![output](./output.png)
----
